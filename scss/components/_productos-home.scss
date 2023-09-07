@@ -1,0 +1,31 @@
+/* productos destacados home */
+.destacados-home{
+    text-align: center;
+    .titulo-productos{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .productos-home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px 20px;
+        gap: 40px;
+        align-items: center;
+        .img-vela{
+            border-radius: 10px;
+            &:hover{
+                scale: 1.03;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

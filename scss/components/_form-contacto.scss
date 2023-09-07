@@ -1,0 +1,41 @@
+/* Formulario de contacto*/
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    .column {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+        .text-contact{
+            padding-bottom: 20px;
+        }
+        .boton{
+            background-color: $primary-500;
+            color: $neutrals-white;
+            :active{
+                background-color: $primary-600;
+            }
+        }
+        
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Mq para móviles (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    .row{
+        flex-direction: column;
+        .column{
+            img{
+                display: none;
+            }
+        }
+    }
+}

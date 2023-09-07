@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    .column {
+        flex: 1;
+        padding: 10px;
+        text-align: left;
+        .texto{
+            padding: 5%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}

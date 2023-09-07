@@ -1,0 +1,31 @@
+.encabezado-secciones{
+    display: flex;
+    @extend %general;
+    .column-enc-izq{
+        display: flex;
+        padding-left: 50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+            .title{
+                color: $primary-300;
+            }
+    }
+    .column-enc-der{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Mq para móviles (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    .encabezado-secciones{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+}

@@ -1,0 +1,22 @@
+/* estilo de banner principal home */
+.bn-principal{
+    @include flex;
+    background-color: $secondary-500;
+    .bn-text{
+        color: $neutrals-white;
+        padding: 3rem;
+        h4{
+            font-weight: 400;
+            color: $secondary-300;
+        }
+    }
+}
+
+/* Mq para móviles (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    .bn-principal{
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+}

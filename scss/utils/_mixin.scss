@@ -1,0 +1,15 @@
+@mixin title-central{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: $neutrals-gray-700;
+}
+
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}

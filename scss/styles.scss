@@ -1,0 +1,16 @@
+@import "./utils/reset";
+@import "./utils/variables";
+@import "./utils/globals";
+@import "./utils/mixin";
+@import "./utils/extend";
+@import "./layout/header";
+@import "./layout/footer";
+@import "layout/banner-principal";
+@import "./components/productos-home";
+@import "./components/title-central";
+@import "./layout/banner-secundario";
+@import "./layout/encabezado-secciones";
+@import "./layout/galeria";
+@import "./layout/nosotros";
+@import "./components/_preg-frecuentes.scss";
+@import "./components/form-contacto";

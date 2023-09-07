@@ -1,0 +1,21 @@
+/* galeria de fotos - sección productos */
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-template-rows: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4rem;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    .img-producto{
+        border-radius: 10px;
+        &:hover{
+            scale: 1.03;
+            transition-duration: 0.5s;
+        }
+    }
+}
